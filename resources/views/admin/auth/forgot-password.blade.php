@@ -14,16 +14,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Forgot password</title>
-    <link href={{ asset('assets/admin/css/tabler.css') }} rel="stylesheet" />
+    <link href={{ asset('assets/admin/dist/css/tabler.css') }} rel="stylesheet" />
     <style>
         @import url("https://rsms.me/inter/inter.css");
     </style>
 </head>
 
 <body>
-    <!-- BEGIN GLOBAL THEME SCRIPT -->
-    <script src="./dist/js/tabler-theme.min.js?1750026890"></script>
-    <!-- END GLOBAL THEME SCRIPT -->
+
     <div class="page page-center">
         <div class="container container-tight py-4">
             <div class="text-center mb-4">
@@ -54,7 +52,9 @@
                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
                         </div>
                         <div class="form-footer">
-                            <button type="submit" class="btn btn-primary w-100">Sign in</button>
+                            <button type="submit" class="btn btn-primary w-100">
+                                {{ __('Email Password Reset Link') }}
+                            </button>
                         </div>
                     </form>
                 </div>

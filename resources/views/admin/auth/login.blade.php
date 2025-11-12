@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sign in</title>
-    <link href={{ asset('assets/admin/css/tabler.css') }} rel="stylesheet" />
+    <link href={{ asset('assets/admin/dist/css/tabler.css') }} rel="stylesheet" />
     <style>
         @import url("https://rsms.me/inter/inter.css");
     </style>
@@ -57,7 +57,7 @@
                             <label class="form-label">
                                 Password
                                 <span class="form-label-description">
-                                    <a href={{ route('admin.password.request') }}>I forgot password</a>
+                                    <a href="{{ route('admin.password.request') }}">I forgot password</a>
                                 </span>
                             </label>
 
