@@ -1,4 +1,4 @@
-<div class="page-header breadcrumb-wr ap">
+  <div class="page-header breadcrumb-wrap">
     <div class="container">
         <div class="breadcrumb">
             @foreach ($items as $item)
