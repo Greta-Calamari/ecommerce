@@ -40,7 +40,7 @@
         <div class="container">
             <div class="header-wrap">
                 <div class="logo logo-width-1">
-                    <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                    <a href="index.html"><img src={{ asset('assets/frontend/dist/imgs/theme/logo.svg') }} alt="logo" /></a>
                 </div>
                 <div class="header-right">
                     <div class="search-style-2">
@@ -64,21 +64,21 @@
                         <div class="header-action-2">
                             <div class="header-action-icon-2">
                                 <a href="#">
-                                    <img class="svgInject" alt="ShopX" src="assets/imgs/theme/icons/icon-compare.svg" />
+                                    <img class="svgInject" alt="ShopX" src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-compare.svg') }} />
                                     <span class="pro-count blue">3</span>
                                 </a>
                                 <a href="#"><span class="lable ml-0">Compare</span></a>
                             </div>
                             <div class="header-action-icon-2">
                                 <a href="#">
-                                    <img class="svgInject" alt="ShopX" src="assets/imgs/theme/icons/icon-heart.svg" />
+                                    <img class="svgInject" alt="ShopX" src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-heart.svg') }} />
                                     <span class="pro-count blue">6</span>
                                 </a>
                                 <a href="#"><span class="lable">Wishlist</span></a>
                             </div>
                             <div class="header-action-icon-2">
                                 <a class="mini-cart-icon" href="#">
-                                    <img alt="ShopX" src="assets/imgs/theme/icons/icon-cart.svg" />
+                                    <img alt="ShopX" src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-cart.svg') }} />
                                     <span class="pro-count blue">2</span>
                                 </a>
                                 <a href="#"><span class="lable">Cart</span></a>
@@ -87,7 +87,7 @@
                                         <li>
                                             <div class="shopping-cart-img">
                                                 <a href="#"><img alt="ShopX"
-                                                        src="assets/imgs/shop/thumbnail-3.jpg" /></a>
+                                                        src={{ asset('assets/frontend/dist/imgs/shop/thumbnail-3.jpg') }} /></a>
                                             </div>
                                             <div class="shopping-cart-title">
                                                 <h4><a href="#">Daisy Casual Bag</a></h4>
@@ -100,7 +100,7 @@
                                         <li>
                                             <div class="shopping-cart-img">
                                                 <a href="#"><img alt="ShopX"
-                                                        src="assets/imgs/shop/thumbnail-2.jpg" /></a>
+                                                        src={{ asset('assets/frontend/dist/imgs/shop/thumbnail-2.jpg') }} /></a>
                                             </div>
                                             <div class="shopping-cart-title">
                                                 <h4><a href="#">Corduroy Shirts</a></h4>
@@ -123,10 +123,10 @@
                                 </div>
                             </div>
                             <div class="header-action-icon-2">
-                                <a href="#">
-                                    <img class="svgInject" alt="ShopX" src="assets/imgs/theme/icons/icon-user.svg" />
+                                <a href={{ route('login') }}>
+                                    <img class="svgInject" alt="ShopX" src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-user.svg') }} />
                                 </a>
-                                <a href="#"><span class="lable ml-0">Account</span></a>
+                                <a href={{ route('login') }}><span class="lable ml-0">Account</span></a>
                                 <div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
                                     <ul>
                                         <li>
@@ -165,7 +165,7 @@
         <div class="container">
             <div class="header-wrap header-space-between position-relative">
                 <div class="logo logo-width-1 d-block d-lg-none">
-                    <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                    <a href="index.html"><img src={{ asset('assets/frontend/dist/imgs/theme/logo.svg') }} alt="logo" /></a>
                 </div>
                 <div class="header-nav d-none d-lg-flex">
                     <div class="main-categori-wrap d-none d-lg-block">
@@ -179,7 +179,7 @@
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-1.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-1.svg') }} alt="" />
                                             Men's Clothing
                                         </a>
                                         <ul>
@@ -192,7 +192,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-2.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-2.svg') }} alt="" />
                                             Women's Clothing
                                         </a>
                                         <ul>
@@ -205,7 +205,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-3.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-3.svg') }} alt="" />
                                             Jewelry & Fashion
                                         </a>
                                         <ul>
@@ -218,7 +218,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-4.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-4.svg') }} alt="" />
                                             Sports Apparel
                                         </a>
                                         <ul>
@@ -231,7 +231,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-5.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-5.svg') }} alt="" />
                                             Skincare
                                         </a>
                                         <ul>
@@ -244,7 +244,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-6.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-6.svg') }} alt="" />
                                             Exercise & Fitness
                                         </a>
                                         <ul>
@@ -257,7 +257,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-7.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-7.svg') }} alt="" />
                                             Toys & Games
                                         </a>
                                         <ul>
@@ -270,7 +270,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-8.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-8.svg') }} alt="" />
                                             Sunglasses
                                         </a>
                                         <ul>
@@ -283,7 +283,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-9.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-9.svg') }} alt="" />
                                             Denim Collection
                                         </a>
                                         <ul>
@@ -296,7 +296,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-1.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-1.svg') }} alt="" />
                                             Men's Clothing
                                         </a>
                                         <ul>
@@ -309,7 +309,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-2.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-2.svg') }} alt="" />
                                             Women's Clothing
                                         </a>
                                         <ul>
@@ -322,7 +322,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/imgs/theme/icons/category-3.svg" alt="" />
+                                            <img src={{ asset('assets/frontend/dist/imgs/theme/icons/category-3.svg') }} alt="" />
                                             Jewelry & Fashion
                                         </a>
                                         <ul>
@@ -399,7 +399,7 @@
                                     <a href="contact.html">Contact</a>
                                 </li>
                                 <li class="hot-deals">
-                                    <!-- <img src="assets/imgs/theme/icons/icon-hot-white.svg" alt="hot deals"> -->
+                                    <img src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-hot-white.svg') }} alt="hot deals">
                                     <a href="flash_sell.html">Flash Sell</a>
                                 </li>
                             </ul>
@@ -407,7 +407,7 @@
                     </div>
                 </div>
                 <div class="hotline d-none d-lg-flex">
-                    <img src="assets/imgs/theme/icons/icon-headphone-white.svg" alt="hotline" />
+                    <img src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-headphone-white.svg') }} alt="hotline" />
                     <p>0000-000<span>24/7 Support Center</span></p>
                 </div>
                 <div class="header-action-icon-2 d-block d-lg-none">
@@ -421,20 +421,20 @@
                     <div class="header-action-2">
                         <div class="header-action-icon-2">
                             <a href="shop-wishlist.html">
-                                <img alt="ShopX" src="assets/imgs/theme/icons/icon-heart.svg" />
+                                <img alt="ShopX" src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-heart.svg') }} />
                                 <span class="pro-count white">4</span>
                             </a>
                         </div>
                         <div class="header-action-icon-2">
                             <a class="mini-cart-icon" href="#">
-                                <img alt="ShopX" src="assets/imgs/theme/icons/icon-cart.svg" />
+                                <img alt="ShopX" src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-cart.svg') }} />
                                 <span class="pro-count white">2</span>
                             </a>
                             <div class="cart-dropdown-wrap cart-dropdown-hm2">
                                 <ul>
                                     <li>
                                         <div class="shopping-cart-img">
-                                            <a href="#"><img alt="ShopX" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
+                                            <a href="#"><img alt="ShopX" src={{ asset('assets/frontend/dist/imgs/shop/thumbnail-3.jpg') }} /></a>
                                         </div>
                                         <div class="shopping-cart-title">
                                             <h4><a href="#">Plain Striola Shirts</a></h4>
@@ -446,7 +446,7 @@
                                     </li>
                                     <li>
                                         <div class="shopping-cart-img">
-                                            <a href="#"><img alt="ShopX" src="assets/imgs/shop/thumbnail-4.jpg" /></a>
+                                            <a href="#"><img alt="ShopX" src={{ asset('assets/frontend/dist/imgs/shop/thumbnail-4.jpg') }} /></a>
                                         </div>
                                         <div class="shopping-cart-title">
                                             <h4><a href="#">Macbook Pro 2025</a></h4>
@@ -478,7 +478,7 @@
     <div class="mobile-header-wrapper-inner">
         <div class="mobile-header-top">
             <div class="mobile-header-logo">
-                <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                <a href="index.html"><img src={{ asset('assets/frontend/dist/imgs/theme/logo.svg') }} alt="logo" /></a>
             </div>
             <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
                 <button class="close-style search-close">
@@ -646,11 +646,11 @@
             </div>
             <div class="mobile-social-icon mb-50">
                 <h6 class="mb-15">Follow Us</h6>
-                <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-                <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-                <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-                <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
-                <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+                <a href="#"><img src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-facebook-white.svg') }} alt="" /></a>
+                <a href="#"><img src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-twitter-white.svg') }} alt="" /></a>
+                <a href="#"><img src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-instagram-white.svg') }} alt="" /></a>
+                <a href="#"><img src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-pinterest-white.svg') }} alt="" /></a>
+                <a href="#"><img src={{ asset('assets/frontend/dist/imgs/theme/icons/icon-youtube-white.svg') }} alt="" /></a>
             </div>
             <div class="site-copyright">Copyright 2025 © ShopX. All rights reserved. Powered by AliThemes.</div>
         </div>
