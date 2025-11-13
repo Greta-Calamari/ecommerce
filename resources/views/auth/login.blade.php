@@ -46,8 +46,9 @@
                                                             me</span></label>
                                                 </div>
                                             </div>
-                                            <a class="text-muted" href={{  route('password.request') }}>Don't have an
-                                                account?</a>Forgot password?</a>
+                                            <a class="text-muted" href={{  route('password.request') }}>
+                                                Forgot
+                                                password?
                                         </div>
                                         <div class="form-group">
                                             <button type="submit" class="btn btn-heading btn-block hover-up"
