@@ -65,3 +65,8 @@ Route::middleware('auth:admin')
         Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
             ->name('logout');
     });
+
+
+Route::get('/admin/dashboard', function () {
+    return view('admin.layouts.app');
+})->middleware(['auth:admin', 'verified'])->name('admin.dashboard');
